@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "ava": "^4.3.1",
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+		"extensions": {
+			"ts": "module"
+		},
+		"nodeArguments": [
+			"--loader=ts-node/esm"
+		]
+	}
+}
