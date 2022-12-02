@@ -11,3 +11,5 @@ test
 *.wasm
 *.wat
 !input.wat
+
+*.js
